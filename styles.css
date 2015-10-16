@@ -1,0 +1,113 @@
+
+
+/* Universal Styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url('images/mooning.png');
+}
+
+.main {
+  width: 900px;
+}
+a {
+  text-decoration: none;
+  color: salmon;
+}
+
+main h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: serif;
+  color: black;
+}
+
+
+#primary {
+  width: 900px;
+  height: auto;
+}
+
+.header-links {
+  width: 100%;
+  text-align: center;
+  background-image: url('images/tweed.png');
+  height: 40px;
+  color: salmon;
+  clear: both;
+}
+
+.header-links li {
+  text-decoration: none;
+  display: inline;
+  padding: 0 10px;
+  font-family: monospace;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+
+footer {
+  position: relative;
+  top: 150px;
+  right: 10px;
+  text-align: right;
+  clear: both;
+  color: white;
+}
+
+
+/* ABOUT ME - STYLES */
+
+section {
+  padding: 50px;
+}
+
+
+
+/* PORTFOLIO - STYLES */
+
+div {
+  margin-top: 50px;
+  width: 295px;
+  height: 300px;
+  float: left;
+  border-radius: 1%;
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+}
+
+.portfolio-images {
+  width:270px;
+  height: 200px;
+}
+
+.portfolio-images:hover {
+  border-radius: 1px;
+  border: 2px solid pink;
+  width: 275px;
+  height: 205px;
+}
+/* CONTACT - STYLES */
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#contact li {
+  display: block;
+  text-align: center;
+  list-style: none;
+  margin-top:25px;
+}
+
+.contact-header {
+  letter-spacing: 3px;
+  font-size: 38px;
+}
